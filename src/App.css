@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(243, 209, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 209, 97, 1) 0%,
+    rgba(251, 236, 171, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+}

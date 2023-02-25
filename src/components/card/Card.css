@@ -1,0 +1,41 @@
+.card-container {
+  height: 110px;
+  background-color: peachpuff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.card-logo {
+  width: 50%;
+  height: 60px;
+  transition: transform 0.3s ease-out;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card-container:hover .card-logo {
+  transform: scale(1.1);
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.info {
+  text-align: left;
+  font-size: 1rem;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 2px #2b24b2;
+}

@@ -1,0 +1,23 @@
+.container {
+  background-color: #f48b29;
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-areas: "top" "bottom";
+  grid-template-rows: 10% 90%;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.cards-container {
+  grid-area: bottom;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
